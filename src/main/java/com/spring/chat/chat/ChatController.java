@@ -17,6 +17,7 @@ public class ChatController {
 
     }
 
+    @SuppressWarnings("null")
     @MessageMapping("/chat.addUser")
     @SendTo("/topic/public")
     public ChatMessage addUser(
